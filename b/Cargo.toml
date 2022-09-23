@@ -1,0 +1,8 @@
+[package]
+name = "b"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "*", features = ["full"]}
+sqlx = { version = "0.6.2", features = ["postgres", "runtime-tokio-rustls"] }
